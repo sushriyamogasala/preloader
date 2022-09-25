@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="prestyle.css">
+    <title>Preloader</title>
+</head>
+<body>
+    <section>
+        <div class="preloader">
+            <span style="--i:1;"></span>
+            <span style="--i:2;" ></span>
+            <span style="--i:3;" ></span>
+            <span style="--i:4;" ></span> 
+            <span style="--i:5;" ></span> 
+            <span style="--i:6;"></span> 
+            <span style="--i:7;" ></span> 
+            <span style="--i:8;" ></span> 
+            <span style="--i:9;"></span> 
+            <span style="--i:10;" ></span> 
+            <span style="--i:11;" ></span> 
+            <span style="--i:12;" ></span>
+            <span style="--i:13;"></span> 
+            <span style="--i:14;" ></span> 
+            <span style="--i:15;" ></span> 
+            <span style="--i:16;" ></span> 
+            <span style="--i:17;"></span> 
+            <span style="--i:18;"></span> 
+            <span style="--i:19;" ></span> 
+            <span style="--i:20;" ></span> 
+
+        </div>
+    </section>   
+
+    <div id="loading">
+        <img style="position: relative;top: 40vh; left: 40vw;z-index: 101;border-radius: 50%;background-color: white;background-size: 100%;"
+            id="loader" src="./img/loader.svg">
+    </div>
+    
+
+   
+      
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+</script>
+<script>
+    setTimeout(function(){
+        $('.preloader').fadeToggle();
+    },10000);
+</script>
+</body>
+</html>
